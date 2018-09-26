@@ -1,0 +1,10 @@
+http://localhost:3000/mobile/
+
+
+http://localhost:3000/manage/login.html
+
+
+
+pc¶Ë :  root   123456
+
+ÒÆ¶¯¶Ë:  itcast  111111
