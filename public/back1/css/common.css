@@ -36,6 +36,7 @@ ul {
     width: 180px;
     height: 100%;
     background-color: #222D32;
+    z-index: 999;
 }
 .lt_aside .brand {
     width: 180px;
@@ -85,4 +86,35 @@ ul {
 }
 .lt_aside .nav .child a {
     padding-left: 60px;
+}
+
+/* 主体 */
+.lt_topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #3C8DBC;
+    padding-left: 180px;
+}
+
+.lt_topbar a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* 下面 */
+.container-fluid {
+    margin-left: 180px;
+    margin-top: 50px;
+    background-color: skyblue;
+    height: 2000px;
+}
+.container-fluid .breadcrumb {
+    margin-top: 20px;
 }
