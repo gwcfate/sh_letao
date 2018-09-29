@@ -4,7 +4,7 @@ $.ajax({
     dataType: 'json',
     success: function (info) {
         if (info.error === 400) {
-            loacation.href = 'login.html'
+            location.href = 'login.html'
         }
     }
 })
